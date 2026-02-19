@@ -1,0 +1,11 @@
+package poo.gamed.exception;
+
+public class UserRegistrationFailedException extends Exception {
+    public UserRegistrationFailedException(String message) {
+        super(message);
+    }
+    
+    public UserRegistrationFailedException() {
+        super("Falha no registo do utente.");
+    }
+}
